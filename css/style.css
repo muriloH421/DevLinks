@@ -13,21 +13,23 @@
   --surface-color-hover:rgba(255, 255, 255, 0.5);
   --switch-bg-url: url(../img/moonStars.svg);
   --highligth-color:rgba(255, 255, 255, 0.1);
+
 }
-#ligth{
-    --bg-url: url(../img/Background.png);
-  --text-color: #fff;
+
+.ligth{
+    --bg-url: url(../img/bg-desktop-light.jpg);
+  --text-color: #000;
   --stroke-color: rgba(0, 0, 0, 0.5);
 --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover:rgba(0, 0, 0, 0.5);
-  --switch-bg-url: url(../img/moonStars.svg);
+  --switch-bg-url: url(../img/sun.svg);
   --highligth-color:rgba(0, 0, 0, 0.1);
 
 }
 /* modificaçoes do body */
 body * {
   font-family: "inter", sans-serif;
-  color: white;
+  color: var(--text-color)
 }
 body {
   background: var(--bg-url) no-repeat top center / cover;
